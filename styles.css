@@ -115,13 +115,95 @@ header a:hover{
     background-color: #48bb78;
     color: white;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px 35px;
     text-decoration: none;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .testing .btn:hover{
-    background-color: #04ba50;
+    background-color: #5a67d8;
 }
 
+/*stories*/
+.stories{
+    padding: 20px;
+}
 
+.stories h2{
+    color: #5a67d8
+}
+
+.stories h3{
+    font-size: 18px;
+}
+
+.stories a{
+    color: #5a67d8;
+    text-decoration: none;
+}
+
+.stories article{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.stories img{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+}
+
+/*newsletter*/
+.newsletter{
+    background-color: #48bb78;
+    color: white;
+    padding: 20px;
+}
+
+.newsletter .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.newsletter form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.newsletter input{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px 35px;
+}
+
+.newsletter button{
+    border: none;
+    border-radius: 5px;
+    background-color: #5a67d8;
+    color: white;
+    padding: 15px 35px;
+    font-size: 16px;
+}
+
+.newsletter button:hover{
+    background-color: #4a5568;
+}
+
+/*footer*/
+footer{
+    background-color: #4a5568;
+    color: white;
+    padding: 20px;
+}
